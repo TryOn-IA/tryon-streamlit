@@ -4,3 +4,4 @@ opencv-python
 torch
 torchvision
 tqdm
+streamlit==1.30.0
