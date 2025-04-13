@@ -33,7 +33,7 @@ if user_img and cloth_img:
 
     if result.returncode == 0:
         output_path = "results/streamlit_tryon/try-on/user.jpg"
-        if os.path.exists(output_path):
+     st.image(output_path, caption="Essayage réussi 😎")
             st.success("Voici le résultat généré :")
             st.image(output_path, caption="Essayage réussi 😎", use_container_width=True)
         else:
