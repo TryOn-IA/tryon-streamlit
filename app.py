@@ -34,7 +34,7 @@ if user_img and cloth_img:
         output_path = "results/streamlit_tryon/try-on/user.jpg"
         if os.path.exists(output_path):
             st.success("Voici le résultat généré :")
-            st.image(output_path, caption="Essayage réussi 😎", use_container_width=True)
+            st.image(output_path, caption="Essayage réussi 😎") 
         else:
             st.error("Image générée introuvable.")
     else:
